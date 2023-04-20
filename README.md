@@ -1,5 +1,17 @@
+## 运行环境
 
-## 默认用户
+考虑依赖库文件较大不能放在github需要手动下载:
+
+1. 下载依赖库文件: https://drive.google.com/file/d/1gazdboqeN86m4XUn-yR2MQEooD-cPzF0/view?usp=share_link
+
+2. 解压缩到`jniLibs`目录下
+
+3. 打开项目执行`build->Refresh Linked C++ Project` 编译
+
+4. 即可运行App
+
+
+## APP 默认可登录用户
 id |name| password
 -|-|-
 0 	|root	    |123
@@ -43,3 +55,4 @@ id |name| password
 38	|FanXiaojing	|111
 39	|MeiXiaochen	|111
 40	|CaiMengxuan	|111
+
